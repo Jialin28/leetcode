@@ -33,23 +33,31 @@
 // 你能在线性时间复杂度内解决此题吗？ 
 // Related Topics 堆 Sliding Window
 
-package leetcode.editor.cn.nextday_0310;
+package leetcode.editor.cn.nextthreeday_0312;
 
+
+import java.util.LinkedList;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution239 {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int length = nums.length;
         if(length * k == 0) return new int[0];
-        int[] data = new int[length - k + 1];
-        for (int i = 0; i < length - k + 1; i++) {
-            int max = Integer.MIN_VALUE;
-            for (int j = i; j < i + k; j++) {
-                max = Math.max(nums[j], max);
+        LinkedList<Integer> queue = new LinkedList<>();
+        int[] result = new int[length - k + 1];
+        for (int i = 0; i < length; i++) {
+            while (!queue.isEmpty() && nums[queue.peekLast()] <= nums[i]) {
+                queue.pollLast();
             }
-            data[i] = max;
+            queue.offerLast(i);
+            if(queue.peekFirst() <= i - k) {
+                queue.pollFirst();
+            }
+            if(i + 1 >= k) {
+                result[i + 1 - k] = nums[queue.peekFirst()];
+            }
         }
-        return data;
+        return result;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

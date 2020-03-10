@@ -38,7 +38,7 @@
 // 
 // Related Topics 设计 队列
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.nextthreeday_0312;
 //leetcode submit region begin(Prohibit modification and deletion)
 class MyCircularDeque {
 

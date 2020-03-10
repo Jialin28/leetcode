@@ -17,7 +17,7 @@
 // 
 // Related Topics 栈 设计
 
-package leetcode.editor.cn.nextday_0310;
+package leetcode.editor.cn.nextthreeday_0312;
 
 import java.util.LinkedList;
 
