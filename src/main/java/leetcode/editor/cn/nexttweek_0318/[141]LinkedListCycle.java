@@ -38,7 +38,7 @@
 // 你能用 O(1)（即，常量）内存解决此问题吗？ 
 // Related Topics 链表 双指针
 
-package leetcode.editor.cn.nextthreeday_0311;
+package leetcode.editor.cn.nexttweek_0318;
 //leetcode submit region begin(Prohibit modification and deletion)
 
 import leetcode.editor.cn.common.ListNode;

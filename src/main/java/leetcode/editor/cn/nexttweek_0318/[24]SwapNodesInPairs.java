@@ -10,7 +10,7 @@
 // 
 // Related Topics 链表
 
-package leetcode.editor.cn.nextthreeday_0311;
+package leetcode.editor.cn.nexttweek_0318;
 import leetcode.editor.cn.common.ListNode;
 
 //leetcode submit region begin(Prohibit modification and deletion)

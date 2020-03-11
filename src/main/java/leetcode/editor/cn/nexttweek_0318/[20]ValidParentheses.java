@@ -39,10 +39,10 @@
 //输出: true 
 // Related Topics 栈 字符串
 
-package leetcode.editor.cn.nextthreeday_0311;
+package leetcode.editor.cn.nexttweek_0318;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution20 {
     public boolean isValid(String s) {
         char[] stack = new char[s.length()];
         int head = 0;

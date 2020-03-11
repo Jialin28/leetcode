@@ -31,8 +31,10 @@
 // 
 // Related Topics 树 深度优先搜索
 
-package leetcode.editor.cn.nextday_0311;
+package leetcode.editor.cn.nextthreeday_0314;
 import leetcode.editor.cn.common.TreeNode;
+
+import java.util.Stack;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
@@ -47,18 +49,22 @@ import leetcode.editor.cn.common.TreeNode;
  * }
  */
 class Solution98 {
-    public long min = Long.MIN_VALUE;;
+    // public long min = Long.MIN_VALUE;;
     public boolean isValidBST(TreeNode root) {
-        if(root == null) {
-            return true;
-        }
-        if(isValidBST(root.left)) {
-            if(min<root.val) {
-                min = root.val;
-                return isValidBST(root.right);
+        if(root == null) return true;
+        long min = Long.MIN_VALUE;
+        Stack<TreeNode> stack = new Stack<>();
+        while(root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
             }
+            root = stack.pop();
+            if(root.val <= min) return false;
+            min = root.val;
+            root = root.right;
         }
-        return false;
+        return true;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

@@ -33,7 +33,7 @@
 // 
 // Related Topics 树
 
-package leetcode.editor.cn.nextday_0311;
+package leetcode.editor.cn.nextthreeday_0314;
 import leetcode.editor.cn.common.TreeNode;
 
 //leetcode submit region begin(Prohibit modification and deletion)

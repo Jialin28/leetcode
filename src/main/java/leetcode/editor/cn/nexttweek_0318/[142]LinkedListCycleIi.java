@@ -39,7 +39,7 @@
 //你是否可以不用额外空间解决此题？ 
 // Related Topics 链表 双指针
 
-package leetcode.editor.cn.nextthreeday_0311;
+package leetcode.editor.cn.nexttweek_0318;
 import leetcode.editor.cn.common.ListNode;
 
 //leetcode submit region begin(Prohibit modification and deletion)

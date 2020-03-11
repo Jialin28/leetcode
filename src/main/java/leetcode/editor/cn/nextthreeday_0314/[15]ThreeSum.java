@@ -17,7 +17,7 @@
 // 
 // Related Topics 数组 双指针
 
-package leetcode.editor.cn.nextday_0311;
+package leetcode.editor.cn.nextthreeday_0314;
 
 import java.util.ArrayList;
 import java.util.Arrays;

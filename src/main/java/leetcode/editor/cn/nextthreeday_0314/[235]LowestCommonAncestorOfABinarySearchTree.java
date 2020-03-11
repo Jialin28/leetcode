@@ -32,11 +32,8 @@
 // 
 // Related Topics 树
 
-package leetcode.editor.cn.nextday_0311;
-import leetcode.editor.cn.common.ListNode;
+package leetcode.editor.cn.nextthreeday_0314;
 import leetcode.editor.cn.common.TreeNode;
-
-import java.util.List;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 

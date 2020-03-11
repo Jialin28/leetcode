@@ -19,7 +19,7 @@
 // 
 // Related Topics 数组
 
-package leetcode.editor.cn.nextthreeday_0311;
+package leetcode.editor.cn.nexttweek_0318;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution66 {
