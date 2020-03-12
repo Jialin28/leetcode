@@ -33,7 +33,7 @@
 // 你能在线性时间复杂度内解决此题吗？ 
 // Related Topics 堆 Sliding Window
 
-package leetcode.editor.cn.nextthreeday_0312;
+package leetcode.editor.cn.nextweek_0319;
 
 
 import java.util.LinkedList;

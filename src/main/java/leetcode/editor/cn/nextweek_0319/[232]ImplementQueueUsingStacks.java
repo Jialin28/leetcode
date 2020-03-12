@@ -27,7 +27,7 @@
 // 
 // Related Topics 栈 设计
 
-package leetcode.editor.cn.nextthreeday_0312;
+package leetcode.editor.cn.nextweek_0319;
 
 import java.util.Stack;
 

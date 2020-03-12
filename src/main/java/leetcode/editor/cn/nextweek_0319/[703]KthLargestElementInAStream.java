@@ -20,7 +20,7 @@
 //你可以假设 nums 的长度≥ k-1 且k ≥ 1。 
 // Related Topics 堆
 
-package leetcode.editor.cn.nextthreeday_0312;
+package leetcode.editor.cn.nextweek_0319;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
