@@ -26,9 +26,13 @@
 // 
 // Related Topics 数学 二分查找
 
+package leetcode.editor.cn;
+
+import java.util.ArrayList;
+import java.util.List;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution50 {
     public double myPow(double x, int n) {
         long num = n;
         if(num < 0) {

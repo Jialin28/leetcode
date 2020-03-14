@@ -15,7 +15,7 @@
 // Related Topics 位运算 数组 分治算法
 
 
-import java.util.Arrays;
+package leetcode.editor.cn;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
