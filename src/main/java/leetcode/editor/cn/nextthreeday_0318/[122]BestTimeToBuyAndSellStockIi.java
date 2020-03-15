@@ -28,7 +28,7 @@
 //解释: 在这种情况下, 没有交易完成, 所以最大利润为 0。 
 // Related Topics 贪心算法 数组
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.nextthreeday_0318;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution122 {
     public int maxProfit(int[] prices) {

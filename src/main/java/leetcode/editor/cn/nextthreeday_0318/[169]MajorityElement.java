@@ -15,10 +15,10 @@
 // Related Topics 位运算 数组 分治算法
 
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.nextthreeday_0318;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution169 {
     public int majorityElement(int[] nums) {
         int count = 1;
         int result = nums[0];

@@ -33,7 +33,7 @@
 // 
 // Related Topics 树
 
-package leetcode.editor.cn.nextthreeday_0314;
+package leetcode.editor.cn.nextthreeday_0321;
 import leetcode.editor.cn.common.TreeNode;
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -48,7 +48,7 @@ import leetcode.editor.cn.common.TreeNode;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class  Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null) return root;
         if(root == p) return p;

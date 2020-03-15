@@ -16,7 +16,7 @@
 // 返回它的最大深度 3 。 
 // Related Topics 树 深度优先搜索
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.nextthreeday_0318;
 import leetcode.editor.cn.common.TreeNode;
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -31,7 +31,7 @@ import leetcode.editor.cn.common.TreeNode;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution104 {
     public int maxDepth(TreeNode root) {
         return root == null ? 0 : Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }

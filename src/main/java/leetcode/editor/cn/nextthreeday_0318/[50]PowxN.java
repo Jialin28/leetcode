@@ -26,7 +26,7 @@
 // 
 // Related Topics 数学 二分查找
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.nextthreeday_0318;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -20,7 +20,7 @@
 // 
 // Related Topics 树 广度优先搜索
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.nextthreeday_0318;
 import leetcode.editor.cn.common.TreeNode;
 
 import java.util.ArrayList;

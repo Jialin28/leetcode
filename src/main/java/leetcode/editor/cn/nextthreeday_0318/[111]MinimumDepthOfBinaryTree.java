@@ -17,7 +17,7 @@
 // 返回它的最小深度 2. 
 // Related Topics 树 深度优先搜索 广度优先搜索
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.nextthreeday_0318;
 import leetcode.editor.cn.common.TreeNode;
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -30,7 +30,7 @@ import leetcode.editor.cn.common.TreeNode;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class Solution111 {
     public int minDepth(TreeNode root) {
         if(root == null) return 0;
         if(root.left == null) return 1 + minDepth(root.right);
