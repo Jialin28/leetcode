@@ -10,7 +10,7 @@
 // Related Topics 链表
 
 
-package leetcode.editor.cn.nexttweek_0318;
+package leetcode.editor.cn.bytedance.linkedlist;
 
 import leetcode.editor.cn.common.ListNode;
 
